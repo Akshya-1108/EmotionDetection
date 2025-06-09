@@ -19,7 +19,7 @@ def evaluate(model, dataloader):
     return 100 * correct / total
 
 def train():
-    train_loader, val_loader = get_dataloaders("data/fer2013", batch_size=64)
+    train_loader, val_loader = get_dataloaders("archive", batch_size=64)
 
     model = EmotionCNN()
     criterion = nn.CrossEntropyLoss()
@@ -39,7 +39,7 @@ def train():
         val_acc = evaluate(model, val_loader)
         print(f"Epoch {epoch+1}/15, Loss: {total_loss/len(train_loader):.4f}, Val Acc: {val_acc:.2f}%")
 
-    torch.save(model.state_dict(), "saved_models/emotion_model.pth")
+    torch.save(model.state_dict(), "saved_Model/emotion_model.pth")
 
 if __name__ == "__main__":
     train()

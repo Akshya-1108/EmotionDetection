@@ -1,6 +1,10 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 import cv2
 import torch
-from models.emotion_cnn import EmotionCNN
+from model.emotion_CNN import EmotionCNN
 import torchvision.transforms as transforms
 
 EMOTIONS = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
