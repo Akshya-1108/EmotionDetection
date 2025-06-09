@@ -1,5 +1,5 @@
-from dataset import get_dataloaders
-from models.emotion_cnn import EmotionCNN
+from datasets import get_dataloaders
+from model.emotion_CNN import EmotionCNN
 import torch
 import torch.nn as nn
 import torch.optim as optim
