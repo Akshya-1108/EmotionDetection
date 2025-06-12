@@ -1,5 +1,8 @@
-torch
 torchvision
-opencv-python
 numpy
 pandas
+mediapipe 
+opencv-python 
+transformers 
+torch 
+pillow
