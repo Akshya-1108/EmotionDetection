@@ -4,7 +4,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 class EmotionClassifier:
     def __init__(self,model):
-        self.device = torch.device("cude" if torch.cuda.is_available() else "cpu")
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
         self.tokenizer = AutoTokenizer.from_pretrained(model)
         self.model = AutoModelForSequenceClassification.from_pretrained(model)
