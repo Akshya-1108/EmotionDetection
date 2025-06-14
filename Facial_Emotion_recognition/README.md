@@ -16,12 +16,10 @@ Required Python packages:pip install torch transformers opencv-python pillow
 
 Clone the repository:
 ```
-git clone <repository-url>a# 🎭 Real-Time Facial Emotion Detection with Transformers
-
-This project implements real-time facial emotion recognition using a pre-trained 
-Vision Transformer model (`dima806/facial_emotions_image_detection`) from HuggingFace,
-along with OpenCV for capturing video feed and detecting faces.
+git clone [repository](https://github.com/Akshya-1108/EmotionDetection)a# 🎭 Real-Time Facial Emotion Detection with Transformers
 ```
+This project implements real-time facial emotion recognition using a pre-trained Vision Transformer model (`dima806/facial_emotions_image_detection`) from HuggingFace, along with OpenCV for capturing video feed and detecting faces.
+
 ---
 
 ## 🚀 Features
