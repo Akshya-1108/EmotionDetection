@@ -16,7 +16,7 @@ Each module is located in its own subdirectory and comes with a dedicated `READM
 
 ## 🔗 Sub-Modules Documentation
 
-### 📝 [Text Emotion Recognition](Text_Emotion_recognition/README.md )
+### 📝 [Text Emotion Recognition](Text_Emotion_recognition )
 Detects emotions from raw text using transformer-based NLP models. Trained on emotion-labeled datasets like GoEmotions.
 
 ### 🔊 [Audio Emotion Recognition]( )
