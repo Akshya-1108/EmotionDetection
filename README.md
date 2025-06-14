@@ -22,7 +22,7 @@ Detects emotions from raw text using transformer-based NLP models. Trained on em
 ### 🔊 [Audio Emotion Recognition]( )
 Analyzes emotional tone in audio speech using acoustic features and transformer-based audio models (e.g., Wav2Vec).
 
-### 😐 [Facial Emotion Recognition](Facial_Emotion_recognition/README.md)
+### 😐 [Facial Emotion Recognition](Facial_Emotion_recognition)
 Uses deep learning and transformers to classify facial expressions into emotion categories.
 
 ---
