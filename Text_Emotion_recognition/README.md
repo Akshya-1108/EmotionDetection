@@ -12,7 +12,7 @@ This is a simple Python-based emotion classifier that uses a pre-trained Hugging
 ## 📁 Project Structure
 
 ```
-emotion-classifier/
+Text_Emotion_Recognotion/
 │
 ├── model/
 │   └── model.py               # Contains the EmotionClassifier class
