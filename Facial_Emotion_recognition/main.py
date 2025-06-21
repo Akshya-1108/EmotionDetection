@@ -7,9 +7,10 @@ import torch
 from transformers import AutoImageProcessor, AutoModelForImageClassification
 from PIL import Image
 
+
 # Load the pretrained model and processor
 processor = AutoImageProcessor.from_pretrained("dima806/facial_emotions_image_detection")
-model = AutoModelForImageClassification.from_pretrained("dima806/facial_emotions_image_detection", use_fast = True)
+model = AutoModelForImageClassification.from_pretrained("dima806/facial_emotions_image_detection")
 model.eval()
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
