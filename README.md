@@ -19,7 +19,7 @@ Each module is located in its own subdirectory and comes with a dedicated `READM
 ### 📝 [Text Emotion Recognition](Text_Emotion_recognition )
 Detects emotions from raw text using transformer-based NLP models. Trained on emotion-labeled datasets like GoEmotions.
 
-### 🔊 [Audio Emotion Recognition]( )
+### 🔊 [Audio Emotion Recognition](Audio_Emotion_recognition )
 Analyzes emotional tone in audio speech using acoustic features and transformer-based audio models (e.g., Wav2Vec).
 
 ### 😐 [Facial Emotion Recognition](Facial_Emotion_recognition)
