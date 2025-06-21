@@ -1,0 +1,8 @@
+Python 3.8+
+sounddevice
+numpy
+keyboard
+matplotlib
+librosa
+torch
+transformers
